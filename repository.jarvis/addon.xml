@@ -6,8 +6,8 @@
             <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
         </dir>
-		<info compressed="false">https://raw.githubusercontent.com/critterskins/repo.jarvis/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/critterskins/repo.jarvis/master/addons.xml.md5</checksum>
+		<info compressed="false">https://raw.githubusercontent.com/critterskins/repo.jarvis/master/_zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/critterskins/repo.jarvis/master/_zips/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/critterskins/repo.jarvis/master/_zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
