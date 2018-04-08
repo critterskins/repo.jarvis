@@ -230,22 +230,21 @@
   </extension>
 </addon>
 
-<addon id="repository.jarvis" name="Team Jarvis" version="1.2.10" provider-name="Critter">
-	<extension point="xbmc.addon.repository" name="Team Jarvis Repo">
-		<dir>
-            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-        </dir>
-		<info compressed="false">https://raw.githubusercontent.com/critterskins/repo.jarvis/master/_zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/critterskins/repo.jarvis/master/_zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/critterskins/repo.jarvis/master/_zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Your Team Jarvis </summary>
-		<description>Team compilation everything Team Jarvis</description>
-		<platform>all</platform>
-	</extension>
+    <addon id="repository.jarvis" name="Team Jarvis" version="1.2.11" provider-name="Jarvis">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Team Jarvis">
+            <info compressed="false">https://raw.githubusercontent.com/critterskins/repo.jarvis/master/__zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/critterskins/repo.jarvis/master/__zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/critterskins/repo.jarvis/master/__zips/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Your Team Jarvis</summary>
+            <description>Team compilation everything Team Jarvis.</description>
+            <platform>all</platform>
+    </extension>
 </addon>
 
     <addon id="repository.Sarcasm" name="Sarcasm" version="1.0.0" provider-name="JimmyJones">
