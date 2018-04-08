@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+
+  <category label="Setup">
+	<setting id="mac_0" type="text" label="[COLORred]MAC Address [/COLOR]" default="00:1A:79:HE:LL:OO" />
+    <setting id="server_0" type="text" label="[COLORred]URL[/COLOR]" default="http://78.142.29.99/stalker_portal/c/"visible=false />
+    <setting id="guide_preference_0" type="enum" label="[COLORred]Preference[/COLOR]" lvalues="30109|30110|30111|30112" default="0" />
+    <setting id="connection_timeout" type="enum" label="[COLORred]Connection Timeout[/COLOR] (seconds)" values="0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100|105|110|115|120" default="1" />
+    <setting id="time_zone_0" type="text" label="30103" default="Europe/Kiev" visible=false/>
+    <setting id="guide_cache_0" type="bool" label="30113" default="true"visible=false />
+    <setting id="guide_cache_hours_0" type="number" label="[COLORred]Cache Time[/COLOR] (hours)" default="24" />
+    <setting id="sep3_0" type="lsep" label="[COLORred]Thank you for Choosing Jarvis IPTV[/COLOR]" />
+    <setting id="sep3_0" type="lsep" label="[COLORred]if you have any questions please contact us at[/COLOR]"/>
+    <setting id="sep3_0" type="lsep" label="[COLORred]https://www.facebook.com/groups/ProjectJarvistv/[/COLOR]" />
+  </category>
+
+</settings>

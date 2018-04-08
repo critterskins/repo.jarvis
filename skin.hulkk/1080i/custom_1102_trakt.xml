@@ -1,0 +1,139 @@
+<window id="1102">
+    <defaultcontrol always="false">1</defaultcontrol>
+    <controls>
+         <include content="CommonBackground">
+            <param name="windowOpen" value="![Window.Previous(SettingsCategory.xml) |  | Window.Previous(systeminfo) | Window.Previous(profiles)]" />
+            <param name="windowClose" value="![Window.Next(SettingsCategory.xml) | Window.Next(systeminfo) | Window.Next(profiles)]" />
+        </include>
+    <control type="group" id="46">
+            <top>90</top>  
+            <left>550</left>
+        <control type="image">
+            <top>20</top>
+            <left>-30</left>
+            <width>885</width>
+            <height>835</height>
+            <texture border="60">listpanel_back.png</texture>
+        </control>
+        <control type="grouplist" id="2"> 
+            <description>trakt</description> 
+            <top>128</top>
+            <left>0</left>      
+        <control type="button" id="1">
+            <description>My first button control</description>
+            <width>825</width>
+            <height>65</height>
+            <visible>true</visible>
+            <label>AUTHORIZE TRAKT IN (COVENANT)</label>
+            <wrapmultiline>true</wrapmultiline>
+            <font>font14</font>
+            <onup>8</onup>
+            <ondown>21</ondown>
+            <onleft>PreviousWindow(1100)</onleft>
+            <textcolor>blue</textcolor>
+            <focusedcolor>red</focusedcolor>
+            <onclick>RunPlugin(plugin://plugin.video.covenant/?action=authTrakt)</onclick>
+        </control>
+        <control type="button" id="21">
+            <description>My first button control</description>
+            <width>825</width>
+            <height>65</height>
+            <visible>true</visible>
+            <label>AUTHORIZE TRAKT IN (POSEIDON)</label>
+            <font>font14</font>
+            <onup>1</onup>
+            <ondown>3</ondown>
+            <textcolor>blue</textcolor>
+            <focusedcolor>red</focusedcolor>
+            <onclick>RunPlugin(plugin://plugin.video.poseidon/?action=authTrakt)</onclick>
+        </control>
+        <control type="button" id="3">
+            <description>My first button control</description>
+            <width>825</width>
+            <height>65</height>
+            <visible>true</visible>
+            <label>AUTHORIZE TRAKT IN (FLIXNET)</label>
+            <font>font14</font>
+            <onup>21</onup>
+            <ondown>4</ondown>
+            <textcolor>blue</textcolor>
+            <focusedcolor>red</focusedcolor>
+            <onclick>RunPlugin(plugin://plugin.video.flixnet/?action=authTrakt)</onclick>
+        </control>
+        
+        <control type="button" id="4">
+            <description>My first button control</description>
+            <left>30</left>
+            <top>130</top>
+            <width>825</width>
+            <height>65</height>
+            <visible>true</visible>
+            <label>AUTHORIZE TRAKT IN (DEATH STREAMS)</label>
+            <wrapmultiline>true</wrapmultiline>
+            <font>font14</font>
+            <onup>3</onup>
+            <ondown>5</ondown>
+            <textcolor>blue</textcolor>
+            <focusedcolor>red</focusedcolor>
+            <onclick>RunPlugin(plugin://plugin.video.blamo/?mode=auth_trakt)</onclick>
+        </control>
+        <control type="button" id="5">
+            <description>My first button control</description>
+            <width>825</width>
+            <height>65</height>
+            <visible>true</visible>
+            <label>AUTHORIZE TRAKT IN (NOT SURE)</label>
+            <wrapmultiline>true</wrapmultiline>
+            <font>font14</font>
+            <onup>4</onup>
+            <ondown>6</ondown>
+            <textcolor>blue</textcolor>
+            <focusedcolor>red</focusedcolor>
+            <onclick>RunPlugin(plugin://plugin.video.sedundnes/?action=authTrakt)</onclick>
+        </control>
+        <control type="button" id="6">
+            <description>My first button control</description>
+            <width>825</width>
+            <height>65</height>
+            <visible>true</visible>
+            <label>AUTHORIZE TRAKT IN (GENESIS REBORN)</label>
+            <wrapmultiline>true</wrapmultiline>
+            <font>font14</font>
+            <onup>5</onup>
+            <ondown>7</ondown>
+            <textcolor>blue</textcolor>
+            <focusedcolor>red</focusedcolor>
+            <onclick>RunPlugin(plugin://plugin.video.genesisreborn/?action=authTrakt)</onclick>
+        </control>
+        <control type="button" id="7">
+            <description>My first button control</description>
+            <width>825</width>
+            <height>65</height>
+            <visible>true</visible>
+            <label>AUTHORIZE TRAKT IN (GURZIL)</label>
+            <wrapmultiline>true</wrapmultiline>
+            <font>font14</font>
+            <onup>6</onup>
+            <ondown>8</ondown>
+            <textcolor>blue</textcolor>
+            <focusedcolor>red</focusedcolor>
+            <onclick>RunPlugin(plugin://plugin.video.gurzil/?action=authTrakt)</onclick>
+        </control>
+        <control type="button" id="8">
+            <description>My first button control</description>
+            <width>825</width>
+            <height>65</height>
+            <visible>true</visible>
+            <label>AUTHORIZE TRAKT IN (DELORIAN)</label>
+            <wrapmultiline>true</wrapmultiline>
+            <font>font14</font>
+            <onup>7</onup>
+            <ondown>1</ondown>
+            <textcolor>blue</textcolor>
+            <focusedcolor>red</focusedcolor>
+            <onclick>RunPlugin(plugin://plugin.video.TheDeLorean/?action=authTrakt)</onclick>
+        </control>
+        </control>
+        </control>
+    </controls>
+</window>

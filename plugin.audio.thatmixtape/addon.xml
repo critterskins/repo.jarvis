@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<addon id="plugin.audio.thatmixtape" name="That Mix Tape" version="1.1" provider-name="Critter">
+        <requires>
+                <import addon="xbmc.python" version="2.24.0"/>
+                <import addon="script.module.requests" version="2.9.1"/>
+                <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="default.py">
+                <provides>audio</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <platform>all</platform>
+                <summary lang="en">ThatMixTape.com Mixtapes</summary>
+                <description lang="en">Stream mixtapes from ThatMixTape.com</description>
+                <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+                <language/>
+                <website>www.ThatMixTape.com</website>
+                <forum/>
+                <source></source>
+                <email></email>
+        </extension>
+</addon>

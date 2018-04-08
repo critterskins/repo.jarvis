@@ -1,0 +1,75 @@
+<window id="1100">
+    <defaultcontrol always="false">1</defaultcontrol>
+    <controls>
+        <include content="CommonBackground">
+            <param name="windowOpen" value="![Window.Previous(SettingsCategory.xml) |  | Window.Previous(systeminfo) | Window.Previous(profiles)]" />
+            <param name="windowClose" value="![Window.Next(SettingsCategory.xml) | Window.Next(systeminfo) | Window.Next(profiles)]" />
+        </include>
+    <control type="group" id="45">
+        <top>90</top>  
+        <left>15</left>
+    <control type="image">
+            <top>20</top>
+            <left>-30</left>
+            <width>285</width>
+            <height>835</height>
+            <texture border="60">listpanel_back.png</texture>
+        </control>
+        <control type="grouplist" id="51">
+            <width>890</width>
+            <top>50</top>
+            <left>SettingsLeft</left>
+            <height>600</height>
+            <include>WindowOpenCloseAnimation</include>
+            <scrolltime tween="sine" easing="out">0</scrolltime>
+            <orientation>vertical</orientation>
+        <control type="button" id="1">
+                <description>trakt</description>
+                <top>100</top>
+                 <width>225</width>
+                 <height>65</height>
+                 <visible>true</visible>
+                 <align>center</align>
+                <scroll>false</scroll>
+                 <label>TRAKT</label>
+                <haspath>false</haspath>
+                <font>font15</font>
+                <onclick>ActivateWindow(1102)</onclick>
+                <onup>3</onup>
+                <ondown>2</ondown>              
+                <textcolor>red</textcolor>
+        </control>
+        <control type="button" id="2">
+                <description>real-debrid</description>
+                <width>225</width>
+                <height>65</height>
+                <visible>true</visible>
+                <align>center</align>
+                <scroll>false</scroll>
+                <label>REAL-DEBRID</label>
+                <font>font15</font>
+                <onclick>ActivateWindow(1101)</onclick>
+                <onup>1</onup>
+                <ondown>3</ondown>
+                <textcolor>red</textcolor>
+        </control>
+         <control type="button" id="3">
+                <description>extra's</description>
+                <width>225</width>
+                <height>65</height>
+                <visible>true</visible>
+                <align>center</align>
+                <scroll>false</scroll>
+                <label>EXTRA'S</label>
+                <haspath>false</haspath>
+                <onclick>ActivateWindow(1103)</onclick>
+                <onright>18</onright>
+                <font>font14</font>
+                <onup>2</onup>
+                <ondown>1</ondown>              
+                <textcolor>red</textcolor>
+         </control>
+        </control>
+    </control>
+  </controls>
+</window>

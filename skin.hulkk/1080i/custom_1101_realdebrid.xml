@@ -1,0 +1,53 @@
+<window id="1101">
+    <defaultcontrol always="false">30</defaultcontrol>
+    <controls>
+         <include content="CommonBackground">
+            <param name="windowOpen" value="![Window.Previous(SettingsCategory.xml) |  | Window.Previous(systeminfo) | Window.Previous(profiles)]" />
+            <param name="windowClose" value="![Window.Next(SettingsCategory.xml) | Window.Next(systeminfo) | Window.Next(profiles)]" />
+        </include>
+    <control type="group" id="52">
+            <top>20</top>  
+            <left>550</left>
+        <control type="image">
+            <top>20</top>
+            <left>-30</left>
+            <width>885</width>
+            <height>835</height>
+            <texture border="60">listpanel_back.png</texture>
+        </control>
+        <control type="grouplist" id="3"> 
+            <description>trakt</description> 
+            <top>100</top>
+            <left>0</left>
+        <control type="button" id="30">
+            <description>My first button control</description>
+            <width>825</width>
+            <height>65</height>
+            <visible>true</visible>
+            <label>AUTHORIZE REAL-DEBRID IN URL RESOLVER</label>
+            <wrapmultiline>true</wrapmultiline>
+            <font>font14</font>
+            <onup>31</onup>
+            <ondown>31</ondown>
+            <textcolor>blue</textcolor>
+            <focusedcolor>red</focusedcolor>
+            <onclick>RunPlugin(plugin://script.module.urlresolver/?mode=auth_rd)</onclick>
+        </control>
+        <control type="button" id="31">
+            <description>My first button control</description>
+            <width>825</width>
+            <height>65</height>
+            <visible>true</visible>
+            <label>URL RESOLVER SETTINGS</label>
+            <wrapmultiline>true</wrapmultiline>
+            <font>font14</font>
+            <onup>30</onup>
+            <ondown>30</ondown>
+            <textcolor>blue</textcolor>
+            <focusedcolor>red</focusedcolor>
+            <onclick>Addon.OpenSettings(script.module.urlresolver)</onclick>
+        </control>
+    </control>
+    </control>
+  </controls>
+</window>

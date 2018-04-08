@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.jarvis.p1k"
+  version="2.0"
+  name="[COLORred]Jarvis Client 1 (Krypton)[/COLOR]"
+  provider-name="[COLORred]Team Jarvis[/COLOR]">
+  <requires>
+    <c-pluff version="0.1"/>
+    <import addon="xbmc.pvr" version="5.2.1"/>
+  </requires>
+  <extension
+    point="xbmc.pvrclient"
+    library_android="libpvr.stalker.so"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">[COLORred]PVR Client for Team Jarvis Packages[/COLOR]</summary>
+    <summary lang="en_NZ">[COLORred]PVR Client for Team Jarvis Packages[/COLOR]</summary>
+    <summary lang="en_US">[COLORred]PVR Client for Team Jarvis Packages[/COLOR]</summary>
+    <description lang="en_GB">[COLORred]PVR Client for Team Jarvis Packages[/COLOR]</description>
+    <description lang="en_NZ">[COLORred]PVR Client for Team Jarvis Packages[/COLOR]</description>
+    <description lang="en_US">[COLORred]PVR Client for Team Jarvis Packages[/COLOR]</description>
+    <platform>android</platform>
+  </extension>
+</addon>

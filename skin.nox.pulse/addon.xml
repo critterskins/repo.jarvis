@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.nox.pulse" version="0.1" name="Nox Pulse" provider-name="Critter">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.4.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">Nox Pulse</summary>
+		<summary lang="el">Nox Pulse</summary>
+		<summary lang="en_GB">Nox Pulse</summary>
+		<summary lang="en_AU">Nox Pulse</summary>
+		<summary lang="en_NZ">Nox Pulse</summary>
+		<summary lang="en_US">Nox Pulse</summary>
+		<summary lang="es">Nox Pulse</summary>
+		<summary lang="fi">Nox Pulse</summary>
+		<summary lang="fr">Nox Pulse</summary>
+		<summary lang="fr_CA">Nox Pulse</summary>
+		<summary lang="gl">Nox Pulse</summary>
+		<summary lang="he">Nox Pulse</summary>
+		<summary lang="hu">Nox Pulse</summary>
+		<summary lang="is">Nox Pulse</summary>
+		<summary lang="it">Nox Pulse</summary>
+		<summary lang="ko">Nox Pulse</summary>
+		<summary lang="lt">Nox Pulse</summary>
+		<summary lang="ms">Nox Pulse</summary>
+		<summary lang="nl">Nox Pulse</summary>
+		<summary lang="no">Nox Pulse</summary>
+		<summary lang="pl">Nox Pulse</summary>
+		<summary lang="pt">Nox Pulse</summary>
+		<summary lang="pt_BR">Nox Pulse</summary>
+		<summary lang="ro">Nox Pulse</summary>
+		<summary lang="ru">Nox Pulse</summary>
+		<summary lang="sk">Nox Pulse</summary>
+		<summary lang="sv">Nox Pulse</summary>
+		<summary lang="th">Nox Pulse</summary>
+		<summary lang="vi">Nox Pulse</summary>
+		<summary lang="zh">Nox Pulse</summary>
+		<description lang="en_GB">Nox Pulse: Forked from Aeon Nox: Redux Thank you Big Noid For the GUI.</description>
+		<description lang="en_AU">Nox Pulse: Forked from Aeon Nox: Redux Thank you Big Noid For the GUI.</description>
+		<description lang="en_NZ">Nox Pulse: Forked from Aeon Nox: Redux Thank you Big Noid For the GUI.</description>
+		<description lang="en_US">Nox Pulse: Forked from Aeon Nox: Redux Thank you Big Noid For the GUI.</description>
+		<disclaimer lang="en_GB">Mouse control is supported, althoug not recommended. It may not work correctly in all cases.</disclaimer>
+		<platform>all</platform>
+		<license>CC BY-NC-SA 4.0</license>
+		<forum>https://t.me/joinchat/Em47VA-BGzNNiKVEpDx4Gg</forum>
+		<website>https://t.me/joinchat/Em47VA-BGzNNiKVEpDx4Gg</website>
+		<email>https://t.me/joinchat/Em47VA-BGzNNiKVEpDx4Gg</email>
+		<source></source>
+		<news>Fixed missing focus on fullscreen info dialog</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>

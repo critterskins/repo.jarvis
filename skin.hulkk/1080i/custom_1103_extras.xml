@@ -1,0 +1,112 @@
+<window id="1103">
+	<defaultcontrol always="false">40</defaultcontrol>
+    <controls>
+         <include content="CommonBackground">
+            <param name="windowOpen" value="![Window.Previous(SettingsCategory.xml) |  | Window.Previous(systeminfo) | Window.Previous(profiles)]" />
+            <param name="windowClose" value="![Window.Next(SettingsCategory.xml) | Window.Next(systeminfo) | Window.Next(profiles)]" />
+        </include>
+        <control type="group" id="46">
+            <top>90</top>  
+            <left>550</left>
+        <control type="image">
+            <top>20</top>
+            <left>-30</left>
+            <width>885</width>
+            <height>835</height>
+            <texture border="60">listpanel_back.png</texture>
+        </control>
+        <control type="grouplist" id="2"> 
+            <description>trakt</description> 
+            <top>128</top>
+            <left>0</left> 
+        <control type="button" id="40">
+            <description>My first button control</description>
+            <width>825</width>
+            <height>65</height>
+            <visible>true</visible>
+            <label>JARVIS WIZARD SETTINGS</label>
+            <wrapmultiline>true</wrapmultiline>
+            <font>font14</font>
+            <onup>45</onup>
+            <ondown>41</ondown>
+            <textcolor>blue</textcolor>
+            <focusedcolor>red</focusedcolor>
+            <onclick>Addon.OpenSettings(plugin.video.projectjarvistv1.0.0)</onclick>
+        </control>
+        <control type="button" id="41">
+            <description>My first button control</description>
+            <width>825</width>
+            <height>65</height>
+            <visible>true</visible>
+            <label>OFFICIAL KODI APK'S (ANDROID ONLY)</label>
+            <wrapmultiline>true</wrapmultiline>
+            <font>font14</font>
+            <onup>40</onup>
+            <ondown>42</ondown>
+            <textcolor>blue</textcolor>
+            <focusedcolor>red</focusedcolor>
+            <onclick>ActivateWindow(10001,&quot;plugin://plugin.video.projectjarvistv1.0.0/?mode=apkscrape&amp;name=kodi&quot;,return)</onclick>
+        </control>
+        <control type="togglebutton" id="42">
+            <description>My first togglebutton control</description>
+            <width>825</width>
+            <height>65</height>
+            <visible>true</visible>
+            <label>TURN WHITELIST ON</label>
+            <altlabel>TURN WHITELIST OFF</altlabel>
+            <font>font14</font>
+            <textcolor>blue</textcolor>
+            <focusedcolor>red</focusedcolor>
+            <align>left</align>
+            <aligny>center</aligny>
+            <pulseonselect>false</pulseonselect>
+            <onclick>PlayMedia(&quot;plugin://plugin.video.projectjarvistv1.0.0/?mode=togglesetting&amp;name=keepwhitelist&quot;)</onclick>
+            <onup>41</onup>
+            <ondown>43</ondown>
+        </control>
+        <control type="button" id="43">
+            <description>My first button control</description>
+            <width>825</width>
+            <height>65</height>
+            <visible>true</visible>
+            <label>EDIT WHITELIST</label>
+            <wrapmultiline>true</wrapmultiline>
+            <font>font14</font>
+            <onup>42</onup>
+            <ondown>44</ondown>
+            <textcolor>blue</textcolor>
+            <focusedcolor>red</focusedcolor>
+            <onclick>PlayMedia(&quot;plugin://plugin.video.projectjarvistv1.0.0/?mode=whitelist&amp;name=edit&quot;)</onclick>
+        </control>
+        <control type="button" id="44">
+            <description>My first button control</description>
+            <width>825</width>
+            <height>65</height>
+            <visible>true</visible>
+            <label>VIEW WHITELIST</label>
+            <wrapmultiline>true</wrapmultiline>
+            <font>font14</font>
+            <onup>43</onup>
+            <ondown>45</ondown>
+            <textcolor>blue</textcolor>
+            <focusedcolor>red</focusedcolor>
+            <onclick>PlayMedia(&quot;plugin://plugin.video.projectjarvistv1.0.0/?mode=whitelist&amp;name=view&quot;)</onclick>
+        </control>
+        <control type="button" id="45">
+            <description>My first button control</description>
+            <width>825</width>
+            <height>65</height>
+            <visible>true</visible>
+            <label>RELOAD SKIN</label>
+            <wrapmultiline>true</wrapmultiline>
+            <font>font14</font>
+            <onup>44</onup>
+            <ondown>40</ondown>
+            <textcolor>blue</textcolor>
+            <focusedcolor>red</focusedcolor>
+            <onclick>XBMC.ReloadSkin</onclick>
+        </control>
+    </control>   
+	</control>
+</controls>
+</window>
