@@ -1,0 +1,13 @@
+
+name="quick"
+version="1.0"
+url="https://"
+gui="https://"
+kodi="17.4"
+theme="http://"
+icon="http://"
+fanart="http://"
+preview="http://"
+adult="No"
+description=""
+
