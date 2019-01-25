@@ -1,13 +1,13 @@
 
-name="quick"
-version="1.0"
-url="https://"
-gui="https://"
+name="Copilot"
+version="2.0"
+url="https://www.dropbox.com/s/7yaejnuxh0om4rh/copilot-1.24.19.zip?dl=1"
+gui="https://www.dropbox.com/s/swtg26c49up354i/copilot-1.24.19_guisettings.zip?dl=1"
 kodi="17.4"
 theme="http://"
 icon="http://"
 fanart="http://"
 preview="http://"
 adult="No"
-description=""
+description="Jarvis Copilot is Alive."
 
